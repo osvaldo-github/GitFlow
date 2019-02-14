@@ -1,1 +1,2 @@
 [DEVELOP] New document 3. (Created direct from remote repository)
+[DEVELOP] Alter document 3. (Altered direct from remote repository)
