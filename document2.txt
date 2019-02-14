@@ -1,2 +1,8 @@
 [DEVELOP] New document 2. (Created direct from remote repository)
+<<<<<<< HEAD
 [DEVELOP] Alter document 2. (Alter direct from local repository
+||||||| merged common ancestors
+=======
+[DEVELOP] Alter document 2. (Alter direct from remote repository)
+[DEVELOP] Alter again document 2. (Alter again direct from remote repository)
+>>>>>>> refs/remotes/origin/develop
