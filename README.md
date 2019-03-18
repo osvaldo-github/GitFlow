@@ -1,3 +1,6 @@
+# GitFlow
+Test Git Flow
+
 --------------------------------------------------------------------------------------------------------
                                         Git Flow
 --------------------------------------------------------------------------------------------------------
@@ -323,6 +326,36 @@ git tag --delete tagname
 
 
 --------------------------------------------------------------------------------------------------------
+                            Resolving Merge Conflict - Pull Request
+--------------------------------------------------------------------------------------------------------
+
+
+Checkout via command line
+If you cannot merge a pull request automatically here, you have the option of checking it out via command line to resolve conflicts and perform a manual merge.
+
+HTTPS
+Git
+Patch
+https://github.com/osvaldo-github/GitFlow.git
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b FlyDogBR-patch-2 origin/FlyDogBR-patch-2
+git merge develop
+Step 2: Merge the changes and update on GitHub.
+
+git checkout develop
+git merge --no-ff FlyDogBR-patch-2
+git push origin develop
+
+
+
+--------------------------------------------------------------------------------------------------------
+                                        Katacoda
+--------------------------------------------------------------------------------------------------------
+
+
+
 
 
 Scenario 1 - Commiting Files
